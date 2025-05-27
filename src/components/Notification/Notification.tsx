@@ -1,5 +1,7 @@
-import styles from './Notification.module.css';
+import styles from './Notification.module.css'
 
-const Notification = () => <
-::contentReference[oaicite:0]{index=0}>
- 
+const Notification = () => {
+  return <p className={styles.message}>No feedback yet</p>
+}
+
+export default Notification
